@@ -397,34 +397,34 @@ const Home = () => {
                     rating: 5
                   },
                   {
-                    name: "Sarah Wilson",
+                    name: "Priya Sharma",
                     role: "Cloud Architect",
                     company: "AWS",
-                    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
+                    image: "https://images.unsplash.com/photo-1664575602276-acd073f104c1?w=150&h=150&fit=crop&crop=face",
                     testimonial: "ProMentor LLC's expertise in cloud technologies and their dedicated mentorship helped me transition into my dream role as a Cloud Architect at AWS.",
                     rating: 5
                   },
                   {
-                    name: "Michael Chen",
+                    name: "Arjun Patel",
                     role: "Software Engineer",
                     company: "Meta",
-                    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face",
+                    image: "https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=150&h=150&fit=crop&crop=face",
                     testimonial: "The interview preparation and technical coaching I received from ProMentor LLC was exceptional. They helped me land my role at Meta within 3 months.",
                     rating: 5
                   },
                   {
-                    name: "Lisa Rodriguez",
+                    name: "Kavya Reddy",
                     role: "Product Manager",
                     company: "Tesla",
-                    image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&h=150&fit=crop&crop=face",
+                    image: "https://images.unsplash.com/photo-1607990281513-2c110a25bd8c?w=150&h=150&fit=crop&crop=face",
                     testimonial: "ProMentor LLC's career guidance program opened doors I never thought possible. Their strategic approach helped me transition into product management at Tesla.",
                     rating: 4.5
                   },
                   {
-                    name: "David Kim",
+                    name: "Rohit Gupta",
                     role: "Machine Learning Engineer", 
                     company: "OpenAI",
-                    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
+                    image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=150&h=150&fit=crop&crop=face",
                     testimonial: "The AI and machine learning training from ProMentor LLC was cutting-edge. Their industry connections helped me secure my position at OpenAI.",
                     rating: 5
                   }
