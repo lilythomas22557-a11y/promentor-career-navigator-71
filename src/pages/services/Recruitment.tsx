@@ -2,10 +2,8 @@ import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { CheckCircle, Users, Search, Target, Clock } from "lucide-react";
-
 const Recruitment = () => {
-  return (
-    <div className="min-h-screen">
+  return <div className="min-h-screen">
       {/* Breadcrumb */}
       <div className="bg-secondary py-4">
         <div className="container mx-auto px-4">
@@ -205,14 +203,12 @@ const Recruitment = () => {
           <h2 className="text-3xl lg:text-4xl font-bold mb-6">
             Did not find what you are searching for?
           </h2>
-          <p className="text-xl mb-8 opacity-90">Connect with us:</p>
+          
           <Button asChild size="lg" variant="secondary" className="text-lg px-8 py-4">
             <Link to="/contact">Connect with Us</Link>
           </Button>
         </div>
       </section>
-    </div>
-  );
+    </div>;
 };
-
 export default Recruitment;
