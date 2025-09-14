@@ -12,7 +12,7 @@ const Footer = () => {
               <img 
                 src="/lovable-uploads/30084cf3-1406-4e7a-9689-5a5c9a0eef41.png" 
                 alt="Pro Mentor LLC - Achieve Your Dreams With Us" 
-                className="h-12 w-auto"
+                className="h-12 w-auto brightness-0 invert"
               />
             </div>
             
