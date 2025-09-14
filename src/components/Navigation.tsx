@@ -169,7 +169,7 @@ const Navigation = () => {
             <div className="flex items-center gap-6">
               <div className="flex items-center gap-2">
                 <Phone className="h-4 w-4" />
-                <span>+918849475626</span>
+                <span>+15186754455</span>
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="h-4 w-4" />
@@ -190,7 +190,7 @@ const Navigation = () => {
               <a href="mailto:onboarding@promentorllc.com">
                 <Mail className="h-4 w-4 cursor-pointer hover:opacity-80" />
               </a>
-              <a href="tel:+918849475626">
+              <a href="tel:+15186754455">
                 <Phone className="h-4 w-4 cursor-pointer hover:opacity-80" />
               </a>
             </div>
@@ -357,7 +357,7 @@ const Navigation = () => {
                     <div className="px-4 text-sm text-muted-foreground space-y-3">
                       <div className="flex items-center gap-3 p-2 rounded-lg hover:bg-secondary/50 transition-colors">
                         <Phone className="h-4 w-4 text-primary" />
-                        <span>+918849475626</span>
+                        <span>+15186754455</span>
                       </div>
                       <div className="flex items-center gap-3 p-2 rounded-lg hover:bg-secondary/50 transition-colors">
                         <Mail className="h-4 w-4 text-primary" />
