@@ -129,7 +129,7 @@ const Contact = () => {
                   <div className="space-y-2 text-sm">
                     <div className="flex items-center gap-2">
                       <Phone className="h-4 w-4 text-muted-foreground" />
-                      <span>+918849475626</span>
+                      <span>+15186754455</span>
                     </div>
                   </div>
                 </CardContent>
