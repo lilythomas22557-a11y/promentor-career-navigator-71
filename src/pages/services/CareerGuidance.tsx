@@ -26,21 +26,13 @@ const CareerGuidance = () => {
               <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-foreground">
                 Comprehensive Career Guidance
               </h2>
-              <p className="text-lg text-muted-foreground leading-relaxed">
-                ProMentor LLC serves as your trusted compass in the intricate world of careers, spanning a 
-                multitude of domains including STEM (Science, Technology, Engineering, and Mathematics), Green card 
-                holders, US citizens, and EAD holders. As your dedicated partner, we embark on an in-depth journey to 
-                meticulously evaluate each candidate through comprehensive interviews, ensuring a seamless alignment 
-                with your organization's ethos and goals.
-              </p>
+              <p className="text-lg text-muted-foreground leading-relaxed">ProMentor LLC serves as your trusted compass in the intricate world of careers, spanning a multitude of domains including STEM (Science, Technology, Engineering, and Mathematics), Green card holders, US citizens, and EAD holders. As your dedicated partner, we embark on an in-depth journey to meticulously evaluate each candidate through comprehensive interviews, ensuring a seamless alignment with your organization's ethos and goals.
+Our specialised STEM services are catalysts for transformative change in candidates' lives, cementing our reputation as an industry-leading STEM employment firm in the digital landscape.</p>
             </div>
 
             <div className="mb-16 animate-fade-in">
               
-              <p className="text-lg text-muted-foreground leading-relaxed">
-                Our specialised STEM services are catalysts for transformative change in candidates' lives, cementing 
-                our reputation as an industry-leading STEM employment firm in the digital landscape.
-              </p>
+              
             </div>
 
             <div className="text-center mb-12 animate-slide-up">
