@@ -23,6 +23,12 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import heroImage from "@/assets/hero-professionals.jpg";
+import priyaImage1 from "@/assets/testimonials/priya-1.webp";
+import kavyaImage from "@/assets/testimonials/kavya-1.jpg";
+import priyaImage2 from "@/assets/testimonials/priya-2.jpg";
+import arjunImage from "@/assets/testimonials/arjun-1.jpg";
+import rajeshImage from "@/assets/testimonials/rajesh-1.jpg";
+import rohitImage from "@/assets/testimonials/rohit-1.jpg";
 import { useCountUp } from "@/hooks/useCountUp";
 import { AnimatedCounter } from "@/components/AnimatedCounter";
 import Autoplay from "embla-carousel-autoplay";
@@ -371,64 +377,64 @@ const Home = () => {
               className="w-full"
             >
               <CarouselContent className="-ml-2 md:-ml-4">
-                {[
-                  {
-                    name: "Arjun Sharma",
-                    role: "Full Stack Developer",
-                    company: "Microsoft",
-                    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
-                    testimonial: "ProMentor LLC transformed my career journey! Their personalized guidance and interview preparation helped me secure my dream position at Microsoft.",
-                    rating: 5
-                  },
-                  {
-                    name: "Priya Patel",
-                    role: "Data Scientist", 
-                    company: "Amazon",
-                    image: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=150&h=150&fit=crop&crop=face",
-                    testimonial: "I cannot thank ProMentor LLC enough for their exceptional support throughout my job search. Their market insights gave me the confidence to excel.",
-                    rating: 5
-                  },
-                  {
-                    name: "Rajesh Kumar",
-                    role: "DevOps Engineer",
-                    company: "Google", 
-                    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
-                    testimonial: "The comprehensive training and career guidance from ProMentor LLC was outstanding. They provided tailored solutions that led me to my current position.",
-                    rating: 5
-                  },
-                  {
-                    name: "Priya Sharma",
-                    role: "Cloud Architect",
-                    company: "AWS",
-                    image: "https://images.unsplash.com/photo-1664575602276-acd073f104c1?w=150&h=150&fit=crop&crop=face",
-                    testimonial: "ProMentor LLC's expertise in cloud technologies and their dedicated mentorship helped me transition into my dream role as a Cloud Architect at AWS.",
-                    rating: 5
-                  },
-                  {
-                    name: "Arjun Patel",
-                    role: "Software Engineer",
-                    company: "Meta",
-                    image: "https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=150&h=150&fit=crop&crop=face",
-                    testimonial: "The interview preparation and technical coaching I received from ProMentor LLC was exceptional. They helped me land my role at Meta within 3 months.",
-                    rating: 5
-                  },
-                  {
-                    name: "Kavya Reddy",
-                    role: "Product Manager",
-                    company: "Tesla",
-                    image: "https://images.unsplash.com/photo-1607990281513-2c110a25bd8c?w=150&h=150&fit=crop&crop=face",
-                    testimonial: "ProMentor LLC's career guidance program opened doors I never thought possible. Their strategic approach helped me transition into product management at Tesla.",
-                    rating: 4.5
-                  },
-                  {
-                    name: "Rohit Gupta",
-                    role: "Machine Learning Engineer", 
-                    company: "OpenAI",
-                    image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=150&h=150&fit=crop&crop=face",
-                    testimonial: "The AI and machine learning training from ProMentor LLC was cutting-edge. Their industry connections helped me secure my position at OpenAI.",
-                    rating: 5
-                  }
-                ].map((testimonial, index) => (
+              {[
+                {
+                  name: "Arjun Sharma",
+                  role: "Full Stack Developer",
+                  company: "Microsoft",
+                  image: arjunImage,
+                  testimonial: "ProMentor LLC transformed my career journey! Their personalized guidance and interview preparation helped me secure my dream position at Microsoft.",
+                  rating: 5
+                },
+                {
+                  name: "Priya Patel",
+                  role: "Data Scientist", 
+                  company: "Amazon",
+                  image: priyaImage1,
+                  testimonial: "I cannot thank ProMentor LLC enough for their exceptional support throughout my job search. Their market insights gave me the confidence to excel.",
+                  rating: 5
+                },
+                {
+                  name: "Rajesh Kumar",
+                  role: "DevOps Engineer",
+                  company: "Google", 
+                  image: rajeshImage,
+                  testimonial: "The comprehensive training and career guidance from ProMentor LLC was outstanding. They provided tailored solutions that led me to my current position.",
+                  rating: 5
+                },
+                {
+                  name: "Priya Sharma",
+                  role: "Cloud Architect",
+                  company: "AWS",
+                  image: priyaImage2,
+                  testimonial: "ProMentor LLC's expertise in cloud technologies and their dedicated mentorship helped me transition into my dream role as a Cloud Architect at AWS.",
+                  rating: 5
+                },
+                {
+                  name: "Arjun Patel",
+                  role: "Software Engineer",
+                  company: "Meta",
+                  image: arjunImage,
+                  testimonial: "The interview preparation and technical coaching I received from ProMentor LLC was exceptional. They helped me land my role at Meta within 3 months.",
+                  rating: 5
+                },
+                {
+                  name: "Kavya Reddy",
+                  role: "Product Manager",
+                  company: "Tesla",
+                  image: kavyaImage,
+                  testimonial: "ProMentor LLC's career guidance program opened doors I never thought possible. Their strategic approach helped me transition into product management at Tesla.",
+                  rating: 4.5
+                },
+                {
+                  name: "Rohit Gupta",
+                  role: "Machine Learning Engineer", 
+                  company: "OpenAI",
+                  image: rohitImage,
+                  testimonial: "The AI and machine learning training from ProMentor LLC was cutting-edge. Their industry connections helped me secure my position at OpenAI.",
+                  rating: 5
+                }
+              ].map((testimonial, index) => (
                   <CarouselItem key={index} className="pl-2 md:pl-4 md:basis-1/2 lg:basis-1/3">
                     <div className="p-4">
                       <Card className="group bg-white hover:scale-[1.02] hover:shadow-xl transition-all duration-300 border-none shadow-lg h-full">
