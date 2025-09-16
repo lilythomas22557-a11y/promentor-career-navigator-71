@@ -379,59 +379,59 @@ const Home = () => {
               <CarouselContent className="-ml-2 md:-ml-4">
               {[
                 {
-                  name: "Arjun Sharma",
+                  name: "Lalith Naik",
+                  role: "Data Engineer",
+                  company: "Tech Corp",
+                  image: rajeshImage,
+                  testimonial: "It was a really great experience. Special thanks to Vaibhav and Jagdish for helping me through every step of the process.",
+                  rating: 5
+                },
+                {
+                  name: "Sneha Iyer",
+                  role: "QA Automation Engineer",
+                  company: "Pharma Company, Princeton",
+                  image: priyaImage1,
+                  testimonial: "Their Selenium training was spot on. Today I'm working in a pharma company in Princeton.",
+                  rating: 5
+                },
+                {
+                  name: "Anjali Gupta",
+                  role: "QA Automation Engineer",
+                  company: "Banking Client, New York",
+                  image: kavyaImage,
+                  testimonial: "I lacked confidence in automation, but their mock interviews helped me crack a banking client role in New York.",
+                  rating: 5
+                },
+                {
+                  name: "Sana Gupta",
+                  role: "Data Scientist",
+                  company: "Analytics Firm, San Jose",
+                  image: priyaImage2,
+                  testimonial: "Their resume work and interview prep made me stand out. I'm now working in predictive analytics in San Jose.",
+                  rating: 5
+                },
+                {
+                  name: "Vasudeva Annan",
                   role: "Full Stack Developer",
-                  company: "Microsoft",
+                  company: "Software Solutions",
                   image: arjunImage,
-                  testimonial: "ProMentor LLC transformed my career journey! Their personalized guidance and interview preparation helped me secure my dream position at Microsoft.",
+                  testimonial: "Recommended for a job hunt. Everyone on the team are good to handle with. Getting a job is easier with them. Jaimin deserves appreciation.",
                   rating: 5
                 },
                 {
                   name: "Priya Patel",
-                  role: "Data Scientist", 
-                  company: "Amazon",
+                  role: "Business Analyst",
+                  company: "Corporate Services",
                   image: priyaImage1,
-                  testimonial: "I cannot thank ProMentor LLC enough for their exceptional support throughout my job search. Their market insights gave me the confidence to excel.",
+                  testimonial: "My overall feedback for one of your recruiter is that he exceeded expectations. He made the hiring process really smooth and answered to all my queries. He has been continuously in touch providing updates and asking about how I did in the interviews which is really professional. I am thankful to him and to Promentor LLC.",
                   rating: 5
                 },
                 {
-                  name: "Rajesh Kumar",
-                  role: "DevOps Engineer",
-                  company: "Google", 
-                  image: rajeshImage,
-                  testimonial: "The comprehensive training and career guidance from ProMentor LLC was outstanding. They provided tailored solutions that led me to my current position.",
-                  rating: 5
-                },
-                {
-                  name: "Priya Sharma",
-                  role: "Cloud Architect",
-                  company: "AWS",
-                  image: priyaImage2,
-                  testimonial: "ProMentor LLC's expertise in cloud technologies and their dedicated mentorship helped me transition into my dream role as a Cloud Architect at AWS.",
-                  rating: 5
-                },
-                {
-                  name: "Arjun Patel",
-                  role: "Software Engineer",
-                  company: "Meta",
-                  image: arjunImage,
-                  testimonial: "The interview preparation and technical coaching I received from ProMentor LLC was exceptional. They helped me land my role at Meta within 3 months.",
-                  rating: 5
-                },
-                {
-                  name: "Kavya Reddy",
-                  role: "Product Manager",
-                  company: "Tesla",
-                  image: kavyaImage,
-                  testimonial: "ProMentor LLC's career guidance program opened doors I never thought possible. Their strategic approach helped me transition into product management at Tesla.",
-                  rating: 4.5
-                },
-                {
-                  name: "Rohit Gupta",
-                  role: "Machine Learning Engineer", 
-                  company: "OpenAI",
+                  name: "Sandeep Sagar",
+                  role: "Full Stack Engineer, Associate",
+                  company: "Tech Solutions",
                   image: rohitImage,
-                  testimonial: "The AI and machine learning training from ProMentor LLC was cutting-edge. Their industry connections helped me secure my position at OpenAI.",
+                  testimonial: "A big thank you to Yagin Patel for their incredible support throughout my job search! Their professionalism and expertise made all the difference. With their help, I was able to secure an amazing opportunity. I highly recommend Promentor LLC to anyone looking for a great staffing agency.",
                   rating: 5
                 }
               ].map((testimonial, index) => (
