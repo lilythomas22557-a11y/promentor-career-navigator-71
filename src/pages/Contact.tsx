@@ -22,6 +22,14 @@ const Contact = () => {
     setIsSubmitting(true);
     
     try {
+      // Save to database first
+      const { error: dbError } = await supabase
+        .from('contact_submissions')
+        .insert([formData]);
+
+      if (dbError) throw dbError;
+
+      // Send email notification
       const { data, error } = await supabase.functions.invoke('send-contact-email', {
         body: formData
       });
@@ -40,7 +48,7 @@ const Contact = () => {
         message: ""
       });
     } catch (error) {
-      console.error('Error sending email:', error);
+      console.error('Error submitting form:', error);
       toast({
         title: "Error",
         description: "Failed to send message. Please try again.",
