@@ -86,7 +86,18 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center text-sm opacity-80">
-          Copyright © 2023, ProMentor LLC, all right reserved
+          <div>Copyright © 2023, ProMentor LLC, all right reserved</div>
+          <div className="mt-2">
+            Developed by{" "}
+            <a 
+              href="https://www.instagram.com/sufiyan.marketing/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-primary-foreground hover:opacity-80 transition-opacity underline"
+            >
+              sufiyan.marketing
+            </a>
+          </div>
         </div>
       </div>
     </footer>
